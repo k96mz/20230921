@@ -89,6 +89,20 @@
             })
                 .bindPopup('I am Circle!')
                 .addTo(map);
+
+            L.polyline(
+                [
+                    [35.36, 138.73],
+                    [35.37, 138.73],
+                    [35.37, 138.74],
+                    [35.38, 138.74],
+                    [35.39, 138.75],
+                    [35.37, 138.75],
+                ],
+                {color: 'blue'},
+            )
+                .bindPopup('I am Polyline!')
+                .addTo(map);
         </script>
     </body>
 </html>
